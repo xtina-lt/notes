@@ -1,8 +1,13 @@
 # GITHUB NOTES #
+
 **bold text**
+
 *italicized*
+
 `code`
+
 [Version Control Dojo](https://codingdojo-onl-pt-versioncontrol.github.io/terminalGit/)
+
 pwd <--where are you
 ls <-- folders
 cd place/ forwrd cd.. backward   <--move around
@@ -16,8 +21,9 @@ clear <-- clear mess
 nano or vim (i for insert mode, esc for execute, :x save and quit)
 ctrl + c <-- stop it
 
-
+![structures](https://codingdojo-onl-pt-versioncontrol.github.io/terminalGit/images/groups/cloneVsBranch.png)
 git clone
+git fork <-- copy and own account
 git status
 git log
 git push
