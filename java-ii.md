@@ -1,4 +1,4 @@
-<div width="100">
+<p width="100">
 
 <h2 id="searching">Searching and Sorting👀</h2>
 
@@ -146,4 +146,4 @@ public static void selection_sort(int[] arr){
     }
 ```
 
-</div>
+</p>
