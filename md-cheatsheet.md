@@ -51,14 +51,18 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
     <dd>This is another definition of the second term.</dd>
 </dl>
 
-<img style="border-radius:80%; filter:grayscale(.6);" src="https://m.lovethispic.com/uploaded_images/blogs/Inspiring-Gif-Quotes-Of-The-Day-49125-2.gif"/>
+<img src="https://m.lovethispic.com/uploaded_images/blogs/Inspiring-Gif-Quotes-Of-The-Day-49125-2.gif"/>
 
 
 <style>
     *{
         font-family: georgia;
     }
-</style>
+    img{
+        border-radius:80%; 
+        filter:grayscale(.6);
+    }
+</style>\
 
 
 
