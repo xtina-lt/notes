@@ -1,8 +1,5 @@
-<table {^[Yg]@;}>
+<table>
 <tr>
-<td>
-    <h1 align="center" fill="blue" id="searching">Searching and Sorting👀</h1>
-</td>
 <td>
     <table align="center">
         <tr>
@@ -46,6 +43,9 @@
             </td>
         </tr>
         </table>
+</td>
+<td>
+    <h1 align="center" fill="blue" id="searching">Searching and Sorting👀</h1>
 </td>
 </tr>
 
