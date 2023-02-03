@@ -7,6 +7,7 @@
 | O(N)   | Fair |
 | O(N<sup>2</sup>)   | Poor (Bubble) |
 
+<table>
 <tr>
 <td>
 <h3>Linear Search
@@ -33,10 +34,11 @@ public static int linear(String[] arr, String key){
 
 </td>
 </tr>
-
+<tr>
+<td>
 <img style="border-radius:80%; filter:grayscale(.6); opacity: .7;" src="./images/sequential-search.gif"/>
 
-</td>
+
 
 <h3>Binary Search
 
@@ -44,6 +46,9 @@ public static int linear(String[] arr, String key){
 - Recursive
 - Time Complexity: O(log<sub>N</sub>)
 - Faster</h3>
+</td>
+<td>
+
 ```java
 // binarySearch(new int[]{1,2,3,4,5,6,7,8,9}, 2) 
 public static int binarySearch(int arr[], int key){  
@@ -67,16 +72,26 @@ public static int binarySearch(int arr[], int key){
     return ( first > last ) ? -1 : mid;
 }
 ```
+</td>
+<tr>
+<td>
+</td>
+<td>
 <img style="border-radius:2vw; filter:grayscale(.6); opacity: .7;" src="./images/binary-search.gif">
+</td>
+</tr>
 
 
-
-<h3>Bubble Sort
+<tr>
+<td>
+<h2>Bubble Sort</h2>
 
 - Double for loop
 - Swaps out larger element
-- Time Complexity: O(N<sup>2</sup>)</h3>
+- Time Complexity: O(N<sup>2</sup>)
 <img style="border-radius:80%; filter:grayscale(.6); opacity: .7" src="./images/bubble-sort.gif"/>
+</td>
+<td>
 
 ```java
 // linear(new String[]{"Alaska", "Ireland", "Niagra Falls"}, "Ireland")
@@ -96,6 +111,10 @@ public static void bubble_sort(int[] arr){
     // 123456799
 }
 ```
+
+</td>
+</tr>
+</table>
 
 <h3>Selection Sort
 
