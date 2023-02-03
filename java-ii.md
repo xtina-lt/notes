@@ -1,5 +1,3 @@
-<p width="100">
-
 <h2 id="searching">Searching and Sorting👀</h2>
 
 | Time     | Level |
@@ -146,4 +144,3 @@ public static void selection_sort(int[] arr){
     }
 ```
 
-</p>
