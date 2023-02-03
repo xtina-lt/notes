@@ -8,9 +8,9 @@
 | O(N<sup>2</sup>)   | Poor (Bubble) |
 
 <h3>Linear Search
-Sequential search order
-Time complexity based on # of elements
-Time Complexity: O(N)</h3>
+- Sequential search order
+- Time complexity based on # of elements
+- Time Complexity: O(N)</h3>
 
 ```java
 // linear(new String[]{"Alaska", "Ireland", "Niagra Falls"}, "Ireland")
