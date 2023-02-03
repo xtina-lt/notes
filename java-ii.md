@@ -66,7 +66,8 @@ public static int binarySearch(int arr[], int key){
 - Double for loop
 - Swaps out larger element
 - Time Complexity: O(N<sup>2</sup>)</h3>
-<img style="border-radius:80%; filter:grayscale(.6); opacity: .7" src="./images/bubble-sort.gif">
+<img style="border-radius:80%; filter:grayscale(.6); opacity: .7" src="./images/bubble-sort.gif"/>
+
 ```java
 // linear(new String[]{"Alaska", "Ireland", "Niagra Falls"}, "Ireland")
 // bubble_sort(new int[]{3,4,2,1,9,9,7,6,5}) ;
