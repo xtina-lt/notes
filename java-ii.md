@@ -29,7 +29,7 @@ public static int linear(String[] arr, String key){
 
 <img style="border-radius:80%; filter:grayscale(.6); opacity: .7;" src="./images/sequential-search.gif">
 
-<h3>Binary Search
+<h3 align="center">Binary Search
 
 - Array MUST BE SORTED
 - Recursive
