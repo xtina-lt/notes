@@ -1,4 +1,3 @@
-
 <h2 id="searching">Searching and Sorting👀</h2>
 
 | Time     | Level |
@@ -8,10 +7,15 @@
 | O(N)   | Fair |
 | O(N<sup>2</sup>)   | Poor (Bubble) |
 
+<tr>
+<td>
 <h3>Linear Search
+
 - Sequential search order
 - Time complexity based on # of elements
 - Time Complexity: O(N)</h3>
+</td>
+<td>
 
 ```java
 // linear(new String[]{"Alaska", "Ireland", "Niagra Falls"}, "Ireland")
@@ -27,7 +31,12 @@ public static int linear(String[] arr, String key){
 }
 ```
 
-<img style="border-radius:80%; filter:grayscale(.6); opacity: .7;" src="./images/sequential-search.gif">
+</td>
+</tr>
+
+<img style="border-radius:80%; filter:grayscale(.6); opacity: .7;" src="./images/sequential-search.gif"/>
+
+</td>
 
 <h3>Binary Search
 
@@ -119,18 +128,13 @@ public static void selection_sort(int[] arr){
 }
 ```
 
-<table>
-<tr>
-<td>
-<h2>Insertion Sort</h2>
+
+<h3>Insertion Sort
 
 - somewhat the best
 - twice as fast as bubble
-- Time Complexity: O(N<sup>2</sup>)
-
+- Time Complexity: O(N<sup>2</sup>)</h3>
 <img style="border-radius:80%; filter:grayscale(.6); opacity: .7" src="./images/insertion-sort.gif">
-</td>
-<td>
 
 ```java
     // insertion_sort(new int[]{3,4,2,1,9,9,7,6,5})
@@ -148,6 +152,4 @@ public static void selection_sort(int[] arr){
          // 123456799
     }
 ```
-</td>
-</tr>
-</table>
+
