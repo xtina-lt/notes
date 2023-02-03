@@ -122,11 +122,12 @@ public static void selection_sort(int[] arr){
 <table>
 <tr>
 <td>
-<h3>Insertion Sort
+<h2>Insertion Sort</h2>
 
 - somewhat the best
 - twice as fast as bubble
-- Time Complexity: O(N<sup>2</sup>)</h3>
+- Time Complexity: O(N<sup>2</sup>)
+
 <img style="border-radius:80%; filter:grayscale(.6); opacity: .7" src="./images/insertion-sort.gif">
 </td>
 <td>
