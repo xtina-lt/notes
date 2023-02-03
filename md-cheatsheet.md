@@ -62,7 +62,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
         border-radius:80%; 
         filter:grayscale(.6);
     }
-</style>\
+</style>
 
 
 
