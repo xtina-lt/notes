@@ -1,4 +1,4 @@
-<h2 id="searching">Searching and Sorting👀</h2>
+<h2 align="center" id="searching">Searching and Sorting👀</h2>
 
 | Time     | Level |
 | :----:      |:----:|
