@@ -1,4 +1,4 @@
-<h1 id="heading-id">♑My Great Heading🧸</h1>
+<h1 id="heading-id">🧸My Great Heading🧸</h1>
 
 | Syntax      | Description | Test Text     |
 | :----:      |    :----:   |        :----: |
@@ -44,4 +44,4 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
     <dd>This is another definition of the second term.</dd>
 </dl>
 
-<img src="https://m.lovethispic.com/uploaded_images/blogs/Inspiring-Gif-Quotes-Of-The-Day-49125-2.gif"/>
+<img style="border-radius:80%;" src="https://m.lovethispic.com/uploaded_images/blogs/Inspiring-Gif-Quotes-Of-The-Day-49125-2.gif"/>
