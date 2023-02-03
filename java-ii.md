@@ -11,9 +11,9 @@
 <h3>Linear Search
 
 <p align="center">
-- Sequential search order
-- Time complexity based on # of elements
-- Time Complexity: O(N) </p></h3>
+<li> Sequential search order
+<li>Time complexity based on # of elements
+<li>Time Complexity: O(N) </p></h3>
 
 ```java
 // linear(new String[]{"Alaska", "Ireland", "Niagra Falls"}, "Ireland")
