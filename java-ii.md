@@ -1,7 +1,7 @@
-<table>
+<table {^[Yg]@;}>
 <tr>
 <td>
-    <h1 align="center" id="searching">Searching and Sorting👀</h1>
+    <h1 align="center" fill="blue" id="searching">Searching and Sorting👀</h1>
 </td>
 <td>
     <table align="center">
