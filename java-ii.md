@@ -1,48 +1,54 @@
-<h2 align="center" id="searching">Searching and Sorting👀</h2>
-<table align="center">
+<table>
 <tr>
-    <td>
-        Time
-    </td>
-    <td>
-        Level
-    </td>
+<td>
+    <h1 align="center" id="searching">Searching and Sorting👀</h1>
+</td>
+<td>
+    <table align="center">
+        <tr>
+            <td>
+                Time
+            </td>
+            <td>
+                Level
+            </td>
+        </tr>
+        <tr>
+            <td>
+                O(1)
+            </td>
+            <td>
+                Excellent
+            </td>
+        </tr>
+        <tr>
+            <td>
+                O(log<sub>N</sub>)
+            </td>
+            <td>
+                Good
+            </td>
+        </tr>
+        <tr>
+            <td>
+                O(N)
+            </td>
+            <td>
+                Fair
+            </td>
+        </tr>
+        <tr>
+            <td>
+                O(N<sup>2</sup>)
+            </td>
+            <td>
+                Poor (Bubble)
+            </td>
+        </tr>
+        </table>
+</td>
 </tr>
-<tr>
-    <td>
-        O(1)
-    </td>
-    <td>
-        Excellent
-    </td>
-</tr>
-<tr>
-    <td>
-        O(log<sub>N</sub>)
-    </td>
-    <td>
-        Good
-    </td>
-</tr>
-<tr>
-    <td>
-        O(N)
-    </td>
-    <td>
-        Fair
-    </td>
-</tr>
-<tr>
-    <td>
-        O(N<sup>2</sup>)
-    </td>
-    <td>
-        Poor (Bubble)
-    </td>
-</tr>
-</table>
 
-<table align="center">
 <tr>
 <td>
 <h3>Linear Search
