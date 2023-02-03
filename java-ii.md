@@ -93,7 +93,8 @@ public static void bubble_sort(int[] arr){
 - Reduces # of swaps
 - Less memory
 - Time Complexity: O(N<sup>2</sup>)</h3>
-<img style="border-radius:2vw; filter:grayscale(.6); opacity: .7" src="./images/selection-sort.gif">
+<img style="border-radius:2vw; filter:grayscale(.6); opacity: .7" src="./images/selection-sort.gif/">
+
 ```java
 // linear(new String[]{"Alaska", "Ireland", "Niagra Falls"}, "Ireland")
 //selection_sort(new int[]{3,4,2,1,9,9,7,6,5}) 
