@@ -125,7 +125,7 @@ public static void selection_sort(int[] arr){
 - somewhat the best
 - twice as fast as bubble
 - Time Complexity: O(N<sup>2</sup>)</h3>
-<img width="50%" style="border-radius:80%; filter:grayscale(.6); opacity: .7" src="./images/insertion-sort.gif">
+<img style="border-radius:80%; filter:grayscale(.6); opacity: .7" src="./images/insertion-sort.gif">
 
 ```java
     // insertion_sort(new int[]{3,4,2,1,9,9,7,6,5})
