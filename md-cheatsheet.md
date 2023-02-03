@@ -1,5 +1,5 @@
-<h1 id="heading-id">♑My Great Heading🧸</h3>
-<div class='container'>
+<h1 id="heading-id">♑My Great Heading🧸</h1>
+
 | Syntax      | Description | Test Text     |
 | :----:      |    :----:   |        :----: |
 | Header      | Title\sss   | Here's this   |
@@ -44,26 +44,4 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
     <dd>This is another definition of the second term.</dd>
 </dl>
 
-<img src="https://m.lovethispic.com/uploaded_images/blogs/Inspiring-Gif-Quotes-Of-The-Day-49125-2.gif" style={}/>
-</div>
-
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Lobster');
-*{
-    font-family: georgia;
-    text-align: center;
-}
-.container{
-    width: 90vw;
-    margin: 0 auto;
-}
-img {
-    border-radius: 80%;
-    opacity: 50%;
-    filter: grayscale(.5);;
-}
-h1{
-    color: rgba(0,206,209, 0.8);
-    font-family: Lobster;
-}
-</style>
+<img src="https://m.lovethispic.com/uploaded_images/blogs/Inspiring-Gif-Quotes-Of-The-Day-49125-2.gif"/>
