@@ -10,9 +10,11 @@
 
 <h3>Linear Search
 
+<p align="center">
 - Sequential search order
 - Time complexity based on # of elements
-- Time Complexity: O(N) </h3>
+- Time Complexity: O(N) </p></h3>
+
 ```java
 // linear(new String[]{"Alaska", "Ireland", "Niagra Falls"}, "Ireland")
 public static int linear(String[] arr, String key){
