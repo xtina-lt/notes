@@ -1,3 +1,4 @@
+<span style="color: blue;">
 <h2 id="searching">Searching and Sorting👀</h2>
 
 | Time     | Level |
@@ -8,7 +9,6 @@
 | O(N<sup>2</sup>)   | Poor (Bubble) |
 
 <h3>Linear Search
-
 - Sequential search order
 - Time complexity based on # of elements
 - Time Complexity: O(N)</h3>
@@ -144,3 +144,5 @@ public static void selection_sort(int[] arr){
     }
 ```
 
+
+</span>
