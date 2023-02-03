@@ -1,13 +1,48 @@
-<h2 id="searching">Searching and Sorting👀</h2>
+<h2 align="center" id="searching">Searching and Sorting👀</h2>
+<table align="center">
+<tr>
+    <td>
+        Time
+    </td>
+    <td>
+        Level
+    </td>
+</tr>
+<tr>
+    <td>
+        O(1)
+    </td>
+    <td>
+        Excellent
+    </td>
+</tr>
+<tr>
+    <td>
+        O(log<sub>N</sub>)
+    </td>
+    <td>
+        Good
+    </td>
+</tr>
+<tr>
+    <td>
+        O(N)
+    </td>
+    <td>
+        Fair
+    </td>
+</tr>
+<tr>
+    <td>
+        O(N<sup>2</sup>)
+    </td>
+    <td>
+        Poor (Bubble)
+    </td>
+</tr>
+</table>
 
-| Time     | Level |
-| :----:      |:----:|
-| O(1)      | Excellent|
-| O(log<sub>N</sub>)   | Good |
-| O(N)   | Fair |
-| O(N<sup>2</sup>)   | Poor (Bubble) |
-
-<table>
+<table align="center">
 <tr>
 <td>
 <h3>Linear Search
@@ -114,15 +149,18 @@ public static void bubble_sort(int[] arr){
 
 </td>
 </tr>
-</table>
 
-<h3>Selection Sort
+<tr>
+<td>
+<h3>Selection Sort</h2>
 
 - Improvement on bubbe sort
 - Reduces # of swaps
 - Less memory
-- Time Complexity: O(N<sup>2</sup>)</h3>
+- Time Complexity: O(N<sup>2</sup>)
 <img style="border-radius:2vw; filter:grayscale(.6); opacity: .7" src="./images/selection-sort.gif/">
+</td>
+<td>
 
 ```java
 // linear(new String[]{"Alaska", "Ireland", "Niagra Falls"}, "Ireland")
@@ -146,14 +184,19 @@ public static void selection_sort(int[] arr){
     // 123456799
 }
 ```
+</td>
+</tr>
 
-
-<h3>Insertion Sort
+<tr>
+<td>
+<h2>Insertion Sort</h2>
 
 - somewhat the best
 - twice as fast as bubble
-- Time Complexity: O(N<sup>2</sup>)</h3>
+- Time Complexity: O(N<sup>2</sup>)
 <img style="border-radius:80%; filter:grayscale(.6); opacity: .7" src="./images/insertion-sort.gif">
+</td>
+<td>
 
 ```java
     // insertion_sort(new int[]{3,4,2,1,9,9,7,6,5})
@@ -171,4 +214,6 @@ public static void selection_sort(int[] arr){
          // 123456799
     }
 ```
-
+</td>
+</tr>
+</table>
