@@ -1,4 +1,4 @@
-<div align="center">
+<body align="center">
 <h2 align="center" id="searching">Searching and Sorting👀</h2>
 
 | Time     | Level |
@@ -29,7 +29,7 @@ public static int linear(String[] arr, String key){
 
 <img style="border-radius:80%; filter:grayscale(.6); opacity: .7;" src="./images/sequential-search.gif">
 
-<h3 align="center">Binary Search
+<h3>Binary Search
 
 - Array MUST BE SORTED
 - Recursive
@@ -144,4 +144,4 @@ public static void selection_sort(int[] arr){
     }
 ```
 
-</div>
+</body>
