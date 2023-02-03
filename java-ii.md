@@ -1,3 +1,5 @@
+<div width="100">
+
 <h2 id="searching">Searching and Sorting👀</h2>
 
 | Time     | Level |
@@ -8,6 +10,7 @@
 | O(N<sup>2</sup>)   | Poor (Bubble) |
 
 <h3>Linear Search
+
 - Sequential search order
 - Time complexity based on # of elements
 - Time Complexity: O(N)</h3>
@@ -124,7 +127,7 @@ public static void selection_sort(int[] arr){
 - somewhat the best
 - twice as fast as bubble
 - Time Complexity: O(N<sup>2</sup>)</h3>
-<img style="border-radius:80%; filter:grayscale(.6); opacity: .7" src="./images/insertion-sort.gif">
+<img width="50%" style="border-radius:80%; filter:grayscale(.6); opacity: .7" src="./images/insertion-sort.gif">
 
 ```java
     // insertion_sort(new int[]{3,4,2,1,9,9,7,6,5})
@@ -142,3 +145,5 @@ public static void selection_sort(int[] arr){
          // 123456799
     }
 ```
+
+</div>
