@@ -223,3 +223,6 @@ public static void selection_sort(int[] arr){
 </td>
 </tr>
 </table>
+
+<img align="center" style="border-radius:2vw; filter:grayscale(.6);" src="./images/bigo_datastructures.png/">
+<img align="center" style="border-radius:2vw; filter:grayscale(.6);" src="./images/bigo_sortingalgos.png/">
