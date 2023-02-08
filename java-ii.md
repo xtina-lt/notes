@@ -379,20 +379,25 @@ CHAPTER 2
 </td>
 <td>
 
-``` cpp
-for (String e : places) System.out.println(e);
-System.out.println(linkList);
-System.out.println(arrList);
-```
-
+ArrayList provides constant time for search operation, so it is `better to use ArrayList if searching is more frequent operation than add and remove operation`. The LinkedList provides constant time for add and remove operations. So it is `better to use LinkedList for manipulation`.
 </td>
 </tr>
 <tr>
 <td>
-<img align="center" style="border-radius:2vw; filter:grayscale(.6);" src="./images/linkedarro.png/">
 </td>
 <td>
-<img align="center" style="border-radius:2vw; filter:grayscale(.6);" width="400" src="./images/linkedvsarr.jpg/">
+<div align="center">
+<img align="center" style="border-radius:2vw; filter:grayscale(.6);" src="./images/linkedarro.png/">
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<div align="center" >
+<img style="border-radius:2vw; filter:grayscale(.6);" width="450" src="./images/linkedvsarr.jpg/">
+</div>
 </td>
 </tr>
 <tr>
@@ -406,11 +411,21 @@ System.out.println(arrList);
 </td>
 <td>
 
-```java
-// one line
+```js
+// INITIALIZE IN ONE LINE
  ArrayList<String> arrList = new ArrayList<>( Arrays.asList("Alaska", "Canda") );
-//  empty
+// empty initialization
 rrayList<Object> arrList = new ArrayList<Object>()
+// METHODS
+arrList.add("Alaska");
+arrList.get(0);
+arrList.set(0, "Ireland");
+arrList.remove( arrList.size()-1 );
+arrList.clear();
+// READ and loop
+for (String e : linkList) System.out.println(e);
+System.out.println(linkList);
+System.out.println(arrList);
 ```
 </td>
 </tr>
@@ -425,12 +440,30 @@ rrayList<Object> arrList = new ArrayList<Object>()
 </td>
 <td>
 
-```java
+```js
+// INITIALIZE IN ONE LINE
 LinkedList<String> linkedList = new LinkedList<>( Arrays.asList("Alaska", "Canda") );
+// empty initialization
 LinkedList<Object> linkedL = new LinkedList<Object>();
+// METHODS
+linkList.add("Alaska");
+linkList.get(0);
+linkList.set(0, "Ireland");
+linkList.remove( linkList.size()-1 );
+linkList.clear();
+// class specific
+linkList.addFirst("Yosemite");
+linkList.addLast("North Carolina");
+linkList.getFirst();
+linkList.getLast();
+// READ and loop
+for (String e : linkList) System.out.println(e);
+System.out.println(linkList);
 ```
 </td>
 </tr>
-
 </table>
+<div align="center">
+<img style="border-radius:2vw; filter:grayscale(.6);" src="images\arrvslinkd.png">
+</div>
 
