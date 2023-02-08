@@ -228,8 +228,8 @@ public static void selection_sort(int[] arr){
 <!-- data structures -->
 <img align="center" style="border-radius:2vw; filter:grayscale(.6);" src="./images/bigo_datastructures.png/">
 </div>
-<div>
+<div align="center">
 <!-- sorting algos -->
-<img align="center" style="border-radius:2vw; filter:grayscale(.6);" src="./images/bigo_sortingalgos.png/">
+<img style="border-radius:2vw; filter:grayscale(.6);" src="./images/bigo_sortingalgos.png/">
 </div>
 
