@@ -41,3 +41,19 @@ npm install axios react-router-dom
 npm start
 ```
 
+<!-- 👣FOOTER👣 -->
+&nbsp;
+<hr />
+<p align="center">A work by <a href="https://github.com/xtina-lt/">Christina Torres</a></p>
+<p align="center"><span style="color: #808080;"><em>xtina_lt@outlook.com</em></span></p>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<p style="text-align: center;">
+    <a href="https://www.linkedin.com/in/xtinacodes/" class="fa fa-linkedin"></a>
+    <a href="https://github.com/xtina-lt/" class="fa fa-github"></a>
+</p>
+
+&nbsp;
