@@ -54,7 +54,88 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 <img src="https://m.lovethispic.com/uploaded_images/blogs/Inspiring-Gif-Quotes-Of-The-Day-49125-2.gif"/>
 
 
-<style>
+
+<!-- table -->
+<table align="center">
+    <tr>
+        <td>
+            <h2> x </h2>
+            x
+        </td>
+        <td>
+            x
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h2> x </h2>
+            x
+        </td>
+        <td>
+            x
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h2> x </h2>
+            x
+        </td>
+        <td>
+            x
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h2> x </h2>
+            x
+        </td>
+        <td>
+            x
+        </td>
+    </tr>
+</table>
+
+
+
+<!-- other table -->
+<table>
+    <tr>
+        <td>
+            x
+        </td>
+        <td>
+            x
+        </td>
+        <td>
+            x
+        </td>
+    </tr>
+    <tr>
+        <td>
+            x
+        </td>
+        <td>
+            x
+        </td>
+        <td>
+            x
+        </td>
+    </tr>
+    <tr>
+        <td>
+            x
+        </td>
+        <td>
+            x
+        </td>
+        <td>
+            x
+        </td>
+    </tr>
+</table>
+
+
+<style align="center">
     *{
         font-family: georgia;
     }
@@ -63,7 +144,3 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
         filter:grayscale(.6);
     }
 </style>
-
-
-
-

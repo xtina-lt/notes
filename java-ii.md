@@ -164,7 +164,7 @@ public static void bubble_sort(int[] arr){
 - Reduces # of swaps
 - Less memory
 - Time Complexity: O(N<sup>2</sup>)
-<img style="border-radius:2vw; filter:grayscale(.6); opacity: .7" src="./images/selection-sort.gif/">
+<img style="border-radius:2vw; filter:grayscale(.6);" src="./images/selection-sort.gif/">
 </td>
 <td>
 
@@ -200,7 +200,7 @@ public static void selection_sort(int[] arr){
 - somewhat the best
 - twice as fast as bubble
 - Time Complexity: O(N<sup>2</sup>)
-<img style="border-radius:80%; filter:grayscale(.6); opacity: .7" src="./images/insertion-sort.gif">
+<img style="border-radius:80%; filter:grayscale(.6)" src="./images/insertion-sort.gif">
 </td>
 <td>
 
