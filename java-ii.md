@@ -223,9 +223,13 @@ public static void selection_sort(int[] arr){
 </td>
 </tr>
 </table>
-
+<!-- sorting graphs -->
 <div align="center">
+<!-- data structures -->
 <img align="center" style="border-radius:2vw; filter:grayscale(.6);" src="./images/bigo_datastructures.png/">
 </div>
-
+<div>
+<!-- sorting algos -->
 <img align="center" style="border-radius:2vw; filter:grayscale(.6);" src="./images/bigo_sortingalgos.png/">
+</div>
+
