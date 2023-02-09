@@ -13,4 +13,71 @@ const letterCount = (str) => {
     }
     return obj
 }
-console.log( letterCount('hello') )
+// console.log( letterCount('hello') )
+
+// Maria plays college basketball and wants to go pro. 
+// Each season she maintains a record of her play. 
+// She tabulates the number of times she breaks her season record 
+// for most points and least points in a game. Points scored in the first 
+// game establish her record for the season, and she begins counting from there.
+
+const breakingRecords = (scores) => {
+    // set equal to first element
+    let bestScore = scores[0];
+    let worstScore = scores[0];
+    // counts
+    let best = 0;
+    let worst = 0;
+
+    for(let e of scores) {
+        if (e > bestScore) {
+            bestScore = e;
+            best++;
+            continue;
+        }
+        if (e < worstScore) {
+            worstScore = e
+            worst++;
+            continue;
+        }
+    }
+    return [best, worst];
+}
+
+// console.log( breakingRecords([10, 5, 20, 20, 4, 5, 2, 25, 1]) )
+
+
+// if a password is in the list print out weak passord
+// if it is not in the list it is strong passowrd
+// return result
+const isWeakSauce = (str) => {
+    let weakPass = ['12345678', 'password', 'secretPassword', 'strongPassword', 'youllNeverGuess']
+    // CAVEMAN
+    // for (e of weakPass) {
+    //     if (e === str) return "Weak Password☠️"
+    // }
+
+    // return "Strong Password💪"
+
+    // SUPERWOMAN
+    return (weakPass.includes(str)) ? "weak passwwrd☠️" : "strong password💪"
+}
+
+// console.log( isWeakSauce('passwod') )
+// console.log( isWeakSauce('password') )
+
+
+const reverseArr = (arr) => {
+    // let result = []
+    // for (let i = arr.length -1; i >= 0; i--){
+    //     result.push(arr[i])
+    // }
+    // return result
+    for (let i = 0; i < Math.floor(arr.length/2); i++){
+        [arr[i],arr[arr.length-1-i]] = [arr[arr.length-1-i], arr[i]]
+    }
+    return arr
+    // return arr.reverse()
+}
+console.log( reverseArr(["Ireland", "Alaska", "Niagra Falls"]) )
+
