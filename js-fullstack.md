@@ -15,7 +15,7 @@
 <tr>
 <td>
 
-- [ ] Make project folder and change directory to folder.
+* [x]  Make project folder and change directory to folder.
 </td>
 <td>
 
