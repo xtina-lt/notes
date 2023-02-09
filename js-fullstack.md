@@ -15,7 +15,7 @@
 <tr>
 <td>
 
-* [x]  Make project folder and change directory to folder.
+- [ ] Make project folder and change directory to folder.
 </td>
 <td>
 
@@ -88,7 +88,6 @@ const port = 8000;
 // app.use(express.json(), express.urlencoded({ extended: true }));
 // const xRoutes = require("./routes/xxxx");
 // xRoutes(app);
-
 app.listen(port, () => console.log(`Party on port: ${port}`) );
 ```
 </td>
