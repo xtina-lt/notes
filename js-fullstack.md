@@ -97,7 +97,7 @@ app.use(express.json(), express.urlencoded({ extended: true }));
 // const xRoutes = require("./routes/xxxx");
 // xRoutes(app);
 
-app.listen(port, () => console.log(`Party on port: ${port}`) );
+app.listen(port, () => console.log(`🎉Party on port: ${port}`) );
 ```
 </td>
 </tr>
