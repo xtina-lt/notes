@@ -84,6 +84,13 @@ const express = require('express');
 const app = express();
 const port = 8000;
 
+// CORS FOR FRONT END 
+// const cors = require("cors");
+// app.use(cors({ //cors is going to allow different ports to send requests to our API
+//     origin:"http://localhost:3000" 
+// }));
+
+// ROUTES AND CONFIG AFTER MAKING FILES
 // require("./config/mongoose.config");
 // app.use(express.json(), express.urlencoded({ extended: true }));
 // const xRoutes = require("./routes/xxxx");

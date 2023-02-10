@@ -1,21 +1,51 @@
 package javatester;
+
+import java.util.Queue;
+import java.util.Stack;
+
 public class JavaTest {
-    // insertion_sort(new int[]{3,4,2,1,9,9,7,6,5})
-    public static void insertion_sort(int[] arr)    {
-        int n = arr.length;
-        for (int i = 1; i < n; ++i) {
-            int key = arr[i];
-            int j = i - 1;
-            while (j >= 0 && arr[j] > key) {
-                arr[j + 1] = arr[j];
-                j = j - 1;
-            }
-            arr[j + 1] = key;
+    static boolean isOperator(char e) {
+        switch (e) {
+            case '+':
+            case '-':
+            case '/':
+            case '*':
+                System.out.println("operator");
+                return true;
+            default:
+                return false;
         }
     }
-     
+
     public static void main(String[] args) {
-        // System.out.println( bubble(new String[]{"Alaska", "Ireland", "Niagra Falls"}, "Ireland") );
-        insertion_sort(new int[]{3,4,2,1,9,9,7,6,5}) ;
+        Stack<String> stack = new Stack<String>();
+        Stack<String> tokens = new Stack<String>();
+        String expression = "2 2 12 9 -+ + *";
+        for (int i = 0; i < expression.length(); i++) {
+            char current = expression.charAt(i);
+            if (current == ' ') {
+                continue;
+            } else if ((i + 1 < expression.length()) && (expression.charAt(i + 1) != ' ')) {
+                tokens.push(String.format("%c%c", current, expression.charAt(i + 1)));
+                i++;
+            } else {
+                tokens.push(current + "");
+            }
+        }
+        
+        System.out.println("tokens" + tokens);
+        while (!tokens.isEmpty()) {
+            String current = tokens.pop();
+            if ( isOperator(current.charAt(0)) & stack.size() > 2) {
+                String op1 = stack.pop();
+                String op2 = stack.pop();
+                stack.push( current + op2 + op1 + "" );
+            } else {
+                stack.push(current + "");
+            }
+
+        }
+
+        System.out.println(stack);
     }
 }
