@@ -1,6 +1,6 @@
 
 <div align="center">
-<img src="https://octodex.github.com/images/mona-the-rivetertocat.png"/>
+<img sidth="100" src="https://octodex.github.com/images/mona-the-rivetertocat.png"/>
 </div>
 <h1>Project Creation</h1>
 
