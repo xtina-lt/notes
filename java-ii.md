@@ -389,7 +389,203 @@ System.out.println(linkList);
 
 
 
+<table align="center">
+<!-- table start -->
+<!-- row -->
+<tr>
+<td align="center">
+<h2> 📚Stacks📚 </h2>
+</td>
+<td>
+<h2> 🍟Queues🍟 </h2>
+</td>
+</tr>
+<!-- row -->
+<tr>
+<td>
+<h3 align="center">LAST IN FIRST OUT</h3>
+<img style="border-radius:2vw; filter:grayscale(.6); background-color: white;" width="450" src="./images/stack.png/">
+</td>
+<td>
+<h3 align="center">FIRST IN FIRST OUT</h3>
+<img style="border-radius:2vw; filter:grayscale(.6);" width="450" src="./images/que.jpg/">
+</td>
+</tr>
+<!-- row -->
+<tr align="center">
+<td>
 
+*Insertion and deletion* in stacks takes place only from one end (*the top*).
+</td>
+<td>
+
+The *insertion* takes place at the *rear* and the *deletion* takes place at the *front*.
+</td>
+</tr>
+<!-- row -->
+<tr align="center">
+<td>
+
+insert  = **push**
+</td>
+<td>
+
+insert = **enqueue**
+</td>
+</tr>
+<!-- row -->
+<tr align="center">
+<td>
+
+delete  = **pop** = removes last
+
+Niagra Falls
+</td>
+<td>
+
+delete = **dequeue / poll** = removes head
+
+Alaska
+</td>
+</tr>
+<!-- row -->
+<tr align="center">
+<td>
+
+1 pointer -> *top*
+</td>
+<td>
+
+1st pointer -> *first inserted element*
+
+2nd pointer -> *last inserted element*
+</td>
+</tr>
+<!-- row -->
+<tr align="center">
+<td>
+
+Use case: **recursion**
+</td>
+<td>
+
+Use case: **sequential processing**
+</td>
+</tr>
+<!-- row -->
+<tr align="center">
+<td>
+No types
+</td>
+<td>
+
+1. Circular Queue 
+
+2. Priority Queue
+
+3. double-ended Queue.
+</td>
+</tr>
+<!-- row -->
+<tr align="center">
+<td>
+Vertical collection visual
+</td>
+<td>
+Horizontal collection visual
+</td>
+</tr>
+<!-- row -->
+<tr>
+<td>
+
+```cpp
+// # CREATE!!
+Stack<String> s = new Stack<String>();
+s.add("Alaska");
+s.add("Ireland");
+s.add("Niagra Falls");
+// [Alaska, Ireland, Niagra Falls]
+System.out.println(s);
+// length
+System.out.println( s.size() );
+// # READ!!
+// READ LAST
+System.out.println( s.peek() ); //Niagra Falls
+// READ FIRST
+System.out.println( s.firstElement() );
+// READ BY INDEX
+System.out.println( s.get(0) ); // Alaska
+// contains Obj ? true : false
+System.out.println( s.contains("Alaska") );
+// checks if (present) ? index : -1
+System.out.println( s.indexOf("Alaska") ); // 0
+// # UPDATE !!
+s.set(0, "Alaska!");
+// [Alaska!, Ireland, Niagra Falls]
+System.out.println(s);
+//  # DELETE !!
+// SAVES and REMOVES last, thows error
+System.out.println( s.pop() ); // Niagra Falls
+// removes first if present
+// (if there) ? true : false
+System.out.println( s.remove("Alaska") ); // false
+
+
+// LOOPING
+for (String e : s) System.out.println(e);
+
+// # ONE LINE INITIALIZATION
+Stack<String> sSuper = new Stack<>();
+sSuper.addAll(0, Arrays.asList("You", "are", "awesome"));
+// [You, are, awesome]
+System.out.println(sSuper);
+```
+</td>
+<td>
+
+```cpp
+// # CREATE!!
+Queue<String> q = new LinkedList<>();
+q.add("Alaska");
+q.add("Ireland");
+q.add("Niagra Falls");
+// [Alaska, Ireland, Niagra Falls]
+System.out.println(q);
+// length
+System.out.println( q.size() ); // 3
+// # READ!!
+// READ index value
+// retrieves but does not remove head of que);
+System.out.println( q.peek() ); // Alaska
+// Retrieves, but does not remove, the head of this queue. 
+// throws an exception if this queue is empty.
+System.out.println( q.element() );
+// contains Obj ? true : false
+System.out.println( q.contains("Alaska") );
+// # DELETE!!
+// Retrieves and removes the head of this queue, 
+// or returns null if this queue is empty.
+// FIFO
+System.out.println( q.poll() ); // ALASKA
+// Retrieves and removes SPECIFIC or head
+// throws exception if empty
+System.out.println( q.remove("Alaska") ); // false
+System.out.println( q.remove() ); // ireland
+
+// LOOPING
+for (String e : q) System.out.println(e);
+
+// # ONE LINE INITIALIZATION
+Queue<String> qOneLine = new LinkedList<>( Arrays.asList("You", "are", "awesome") );
+// [You, are, awesome]
+System.out.println(qOneLine);
+```
+</td>
+</tr>
+
+
+</table>
 
 
 

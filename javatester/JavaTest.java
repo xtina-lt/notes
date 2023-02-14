@@ -1,51 +1,94 @@
 package javatester;
-
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
 
-public class JavaTest {
-    static boolean isOperator(char e) {
-        switch (e) {
-            case '+':
-            case '-':
-            case '/':
-            case '*':
-                System.out.println("operator");
-                return true;
-            default:
-                return false;
-        }
+public class JavaTest{
+
+    public static void studyQueue() {
+        // # CREATE!!
+        Queue<String> q = new LinkedList<>();
+        q.add("Alaska");
+        q.add("Ireland");
+        q.add("Niagra Falls");
+        // [Alaska, Ireland, Niagra Falls]
+        System.out.println(q);
+        // length
+        System.out.println( q.size() ); // 3
+        // # READ!!
+        // READ index value
+        // retrieves but does not remove head of que);
+        System.out.println( q.peek() ); // Alaska
+        // Retrieves, but does not remove, the head of this queue. 
+        // throws an exception if this queue is empty.
+        System.out.println( q.element() );
+        // contains Obj ? true : false
+        System.out.println( q.contains("Alaska") );
+        // # DELETE!!
+        // Retrieves and removes the head of this queue, 
+        // or returns null if this queue is empty.
+        // FIFO
+        System.out.println( q.poll() ); // ALASKA
+        // Retrieves and removes SPECIFIC or head
+        // throws exception if empty
+        System.out.println( q.remove("Alaska") ); // false
+        System.out.println( q.remove() ); // ireland
+
+        // LOOPING
+        for (String e : q) System.out.println(e);
+
+        // # ONE LINE INITIALIZATION
+        Queue<String> qOneLine = new LinkedList<>( Arrays.asList("You", "are", "awesome") );
+        // [You, are, awesome]
+        System.out.println(qOneLine);
     }
 
-    public static void main(String[] args) {
-        Stack<String> stack = new Stack<String>();
-        Stack<String> tokens = new Stack<String>();
-        String expression = "2 2 12 9 -+ + *";
-        for (int i = 0; i < expression.length(); i++) {
-            char current = expression.charAt(i);
-            if (current == ' ') {
-                continue;
-            } else if ((i + 1 < expression.length()) && (expression.charAt(i + 1) != ' ')) {
-                tokens.push(String.format("%c%c", current, expression.charAt(i + 1)));
-                i++;
-            } else {
-                tokens.push(current + "");
-            }
-        }
+    public static void studyStack(){
+        // # CREATE!!
+        Stack<String> s = new Stack<String>();
+        s.add("Alaska");
+        s.add("Ireland");
+        s.add("Niagra Falls");
+        // [Alaska, Ireland, Niagra Falls]
+        System.out.println(s);
+        // length
+        System.out.println( s.size() );
+        // # READ!!
+        // READ LAST
+        System.out.println( s.peek() ); //Niagra Falls
+        // READ FIRST
+        System.out.println( s.firstElement() );
+        // READ BY INDEX
+        System.out.println( s.get(0) ); // Alaska
+        // contains Obj ? true : false
+        System.out.println( s.contains("Alaska") );
+        // checks if (present) ? index : -1
+        System.out.println( s.indexOf("Alaska") ); // 0
+        // # UPDATE !!
+        s.set(0, "Alaska!");
+        // [Alaska!, Ireland, Niagra Falls]
+        System.out.println(s);
+        //  # DELETE !!
+        // SAVES and REMOVES last, thows error
+        System.out.println( s.pop() ); // Niagra Falls
+        // removes first if present
+        // (if there) ? true : false
+        System.out.println( s.remove("Alaska") ); // false
         
-        System.out.println("tokens" + tokens);
-        while (!tokens.isEmpty()) {
-            String current = tokens.pop();
-            if ( isOperator(current.charAt(0)) & stack.size() > 2) {
-                String op1 = stack.pop();
-                String op2 = stack.pop();
-                stack.push( current + op2 + op1 + "" );
-            } else {
-                stack.push(current + "");
-            }
 
-        }
+        // LOOPING
+        for (String e : s) System.out.println(e);
 
-        System.out.println(stack);
+        // # ONE LINE INITIALIZATION
+        Stack<String> sSuper = new Stack<>();
+        sSuper.addAll(0, Arrays.asList("You", "are", "awesome"));
+        // [You, are, awesome]
+        System.out.println(sSuper);
+    }
+    public static void main(String[] args) {
+        studyQueue();
+        // studyStack();
     }
 }
