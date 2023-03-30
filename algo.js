@@ -76,6 +76,24 @@ const reverseArr = (arr) => {
     return arr
 }
 
-console.log( reverseArr(["mongoose", "are", "cray", "cray"]) )
+// console.log( reverseArr(["mongoose", "are", "cray", "cray"]) )
 // console.log( reverseArr(["Ireland", "Alaska", "Niagra Falls", "Guam", "Yosemite"]) )
 
+
+const palindrome = (str) => {
+    let result = true
+    for (let i =0; i < str.length/2; i++){
+        if(str[i] !== str[str.length - 1 - i]){
+            result = false
+        }
+    }
+    return result
+}
+
+console.log( palindrome("racecar") )
+console.log( palindrome("mongoose") )
+
+
+
+let errors = "messageeee"
+console.log( (errors) ? errors : null )
