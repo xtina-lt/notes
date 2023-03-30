@@ -59,3 +59,5 @@ Some more resources for those that were curious about GitHub:
 - https://www.youtube.com/playlist?list=PLdBks2SVjpARx3ogVp1L-JQQrMxmZ0VdS
 - https://login.codingdojo.com/m/283/8975/60943
 - https://hackmd.io/uv_lg3AdTvymhf5hf4tGQg?view 
+
+<img src="https://media.tenor.com/jX6UU4Gilb0AAAAM/funny-animals-pet.gif"/>
