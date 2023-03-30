@@ -24,6 +24,7 @@ Chris's Image Placeholders:
 - https://placehold.co/
 
 Shortcuts:
+```
 - ! + enter --> html start
 - li * 2 --> create 2 children
 - type link and scroll down to :css --> auto populate link tag
@@ -33,6 +34,7 @@ Shortcuts:
 -- new --
 - div.yellow*3 --> 2 divs with the class of yellow
 - div#wrapper --> 1 div with an id wrapper
+```
 
 Where do I start with CSS🤯?:
 1. top to bottom
