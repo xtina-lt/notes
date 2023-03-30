@@ -43,9 +43,11 @@ Where do I start with CSS🤯?:
 
 
 HTML and CSS tips:
+```
 - margin: 0px auto --> center
 - <hr class="banner"> --> line across top can be used for profile page (horizontal rule)
 - ! Divs are usefull when encapsulating two or more elements. 
+```
 
 
 Extensions talked about:
