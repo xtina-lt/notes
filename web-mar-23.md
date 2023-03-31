@@ -3,12 +3,12 @@
 
 
 What to search in google:
-- value or what you are trying to do  +  html css
+- `value` or `what you are trying to do`  +  `html` `css`
 - W3Schools is an website for styling break down
 
 Inspect:
-1. right click ANYWHERE on the web page in the browser
-2. click inspect
+1. `right click` ANYWHERE on the web page in the browser
+2. click `inspect`
 3. look👀 on the right➡️
 
 
