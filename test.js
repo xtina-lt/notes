@@ -76,6 +76,74 @@
 // // CREATE
 // console.log( data)
 
-for (let i=4; i >= -3.5; i-=1.5){
-    console.log(i)
+// var lengthOfLongestSubstring = function(s) {
+//     var subs = [];
+//     var result = 0;
+//     s = Array.from(s)
+//     console.log(s)
+//     for(i = 0; i < s.length; i++){
+//         console.log(`${subs} , ${s[i]}`)
+//         if(subs.includes(s[i])){
+//             console.log("if")
+//             // s.splice(s.indexOf(s[i]))
+//             subs = []
+//         } else {
+//             subs.push(s[i])
+//         }
+
+//         if (result <= subs.length){
+//             result = subs.length
+//         }
+
+//     }
+//     console.log(subs)
+//     return(result)
+// }
+// console.log(lengthOfLongestSubstring('abcabcbb'))
+// console.log(lengthOfLongestSubstring('bbbbb'))
+// console.log(lengthOfLongestSubstring('pwwkew'))
+// console.log(lengthOfLongestSubstring('bbbb'))
+// console.log(lengthOfLongestSubstring('dvdf'))
+
+var lengthOfLongestSubstring = function(s) {
+    var subs = [];
+    var result = 0;
+    s = Array.from(s)
+    s1 = Array.from(s)
+    var x = []
+    for(let i of s){
+        if (subs.includes(i)){
+            x = s1.splice(s.indexOf(i))
+            subs = []
+            console.log("found")
+        } else {
+            subs.push(i)
+        }
+        if (result <= subs.length){
+            result = subs.length
+        }
+    }
+    console.log(subs)
+    return(result)
 }
+console.log(lengthOfLongestSubstring('pwwkew'))
+
+var lengthOfLongestSubstring = function (s) {
+    let current = 0;
+    let len = 0;
+    let maxLen = 0;
+  
+    while (current < s.length) {
+      let idxFirstOne = s.indexOf(s[current]);
+      if (idxFirstOne === current) {
+        len++;
+        current++;
+      } else {
+        maxLen = Math.max(len, maxLen);
+        s = s.slice(idxFirstOne + 1);
+        current = 0;
+        len = 0;
+      }
+    }
+    return Math.max(len, maxLen);
+  };

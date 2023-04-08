@@ -52,7 +52,3 @@
 # # Devon
 
 
-var = "(17,)"
-print(var)
-res = var.split(',')  
-print(res[0][1:])
